@@ -51,7 +51,7 @@
             <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPersonName"
+                    android:inputType="text"
                     android:ems="10"
                     android:layout_margin="10dp"
                     android:id="@+id/editText2" android:hint="100자 이내로 작성해주세요"/>
