@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String idStr = id.getText().toString();
-                int passStr = Integer.parseInt(pass.getText().toString());
-                if(idStr.equals("test") && passStr == 1234) {
+                String passStr = pass.getText().toString();
+                if(idStr.equals("test") && passStr.equals("1234")) {
                     Intent intent = new Intent(getApplicationContext(), Main.class);
                     startActivity(intent);
                 }
@@ -42,4 +42,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }

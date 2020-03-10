@@ -7,6 +7,7 @@
 
     <TextView
             android:text="Register Page"
+            android:background="#EEEEFF"
             android:gravity="center"
             android:layout_marginBottom="20dp"
             android:textStyle="bold"
