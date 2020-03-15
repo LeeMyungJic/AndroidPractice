@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context=".fragment_schedule">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:text="시간표"/>
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:layout_marginBottom="10dp"
+                android:text="시간표"/>
+        <ImageView
+                android:src="@drawable/jooeun"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="387dp" android:id="@+id/getImage"/>
+        <Button
+                android:text="불러오기"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/getbutton"/>
+
+    </LinearLayout>
 
 </FrameLayout>
